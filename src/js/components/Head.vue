@@ -75,9 +75,8 @@ export default {
 // @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
 
 .head {
-    margin-top: 70px;
+    margin-top: 50px;
     margin-bottom: 33px;
-
 
     .promotion {
         background: #191919;

@@ -3,7 +3,7 @@
         <Nav />
         <Head />
         <Courses :data="courses" />
-        <Features />
+        <Move />
     </div>
 </template>
 
@@ -12,18 +12,18 @@
 import Nav from "./components/Nav.vue"
 import Head from "./components/Head.vue"
 import Courses from "./components/Courses.vue"
-import Features from "./components/Features.vue";
+import Move from "./components/Move.vue"
 export default {
-    components: { Nav, Head, Courses, Features },
+    components: { Nav, Head, Courses, Move },
     data() {
         return {
             courses: [
                 { 'title': 'Кардио', 'cl': '250 калорий', 'time': '58:24', 'img': 'cardio.png' },
                 { 'title': 'Растяжка', 'cl': '250 калорий', 'time': '58:24', 'img': 'stretch.png' },
-                { 'title': 'Йога', 'cl': '250 калорий', 'time': '58:24', 'img': 'joga.png' },
-                { 'title': 'Бег', 'cl': '250 калорий', 'time': '58:24', 'img': 'run.png' },
-                { 'title': 'Гантели', 'cl': '250 калорий', 'time': '58:24', 'img': 'metal.png' },
-                { 'title': 'На улице', 'cl': '250 калорий', 'time': '58:24', 'img': 'street.png' },
+                { 'title': 'Йога', 'cl': '250 калорий', 'time': '58:24', 'img': 'Manikyur01.jpeg' },
+                { 'title': 'Бег', 'cl': '250 калорий', 'time': '58:24', 'img': 'mini_worksnail.jpg' },
+                { 'title': 'Гантели', 'cl': '250 калорий', 'time': '58:24', 'img': 'mini_AnsNail.jpg' },
+                { 'title': 'На улице', 'cl': '250 калорий', 'time': '58:24', 'img': 'mini_ans02nail.jpg' },
             ]
         }
     }

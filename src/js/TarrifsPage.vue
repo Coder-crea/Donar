@@ -2,7 +2,6 @@
     <div>
         <Nav />
         <Head />
-        <Features />
     </div>
 </template>
 
@@ -10,9 +9,9 @@
 
 import Nav from "./components/Nav.vue"
 import Head from "./components/Head.vue"
-import Features from "./components/Features.vue";
+
 export default {
-    components: { Nav, Head, Features },
+    components: { Nav, Head,},
 }
 </script>
 

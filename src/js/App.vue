@@ -8,13 +8,6 @@
 
 <script>
 
-// import Nav from "./components/Nav.vue"
-// import Head from "./components/Head.vue"
-// import Courses from "./components/Courses.vue"
-// import Features from "./components/Features.vue";
-// export default {
-//     components: { Nav, Head, Courses, Features },
-// }
 </script>
 
 <style lang="scss">

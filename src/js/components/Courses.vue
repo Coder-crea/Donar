@@ -1,7 +1,7 @@
 <template>
     <div class="wrapper">
         <div class="heading">
-            <h2>Популярные Тренировки</h2>
+            <h2>Наши работы</h2>
             <a href="" class="link-more">ПОСМОТРЕТЬ БОЛЬШЕ</a>
         </div>
         <div class="courses">
@@ -42,11 +42,13 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
     flex-wrap: wrap;
+    @media(min-width:1024px){
+        margin-top: 120px;
+    }
 
     @media(max-width:1024px) {
-        margin-top: 60px;
+        margin-top: 30px;
     }
 
     h2 {
@@ -60,7 +62,7 @@ export default {
 
     a {
         font-size: 0.8em;
-        margin-top: 14px;
+        margin-top: 10px;
         // @media(max-width:320px) {
         //     width: 100%;
         // }
@@ -68,7 +70,7 @@ export default {
 }
 
 .courses {
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     display: flex;
     flex-wrap: wrap;
 
@@ -83,7 +85,7 @@ export default {
 
 
     .courses-item {
-        margin-top: 70px;
+        margin-top: 40px;
 
         cursor: pointer;
         position: relative;
@@ -127,6 +129,7 @@ export default {
 
         img {
             opacity: 0.8;
+            border-radius: 10px;
             transition: all 0.4s ease;
 
             @media(max-width:440px) {
