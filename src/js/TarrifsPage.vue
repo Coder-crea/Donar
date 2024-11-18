@@ -1,17 +1,20 @@
 <template>
     <div>
         <Nav />
-        <Head />
+        <ContentTarif />
+        <Move />
+        <Endter />
     </div>
 </template>
 
 <script>
 
 import Nav from "./components/Nav.vue"
-import Head from "./components/Head.vue"
-
+import Endter from "./components/endter.vue"
+import Move from "./components/Move.vue"
+import ContentTarif from "./components/ContentTarif.vue"
 export default {
-    components: { Nav, Head,},
+    components: { Nav, Endter, ContentTarif, Move},
 }
 </script>
 

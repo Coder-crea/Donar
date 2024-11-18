@@ -12,8 +12,8 @@
                     - Начинающих специалистов, стремящихся быстро освоить новые техники <br>
                     - Всех, кто хочет научиться создавать модные и стильные образы на ногтях</p>
                 <div class="lead-buttons">
-                    <button><router-link to="/tarrifs">Начать</router-link></button>
-                    <button>Детальнее</button>
+                    <button><router-link to="/registration">Записаться</router-link></button>
+                    <button>Подробнее</button>
                 </div>
             </div>
             <div>
@@ -31,6 +31,7 @@
         </div>
     </div>
 </template>
+
 
 <script>
 export default {
@@ -72,8 +73,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-// @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
-
 .head {
     margin-top: 50px;
     margin-bottom: 33px;
@@ -158,7 +157,7 @@ export default {
         }
 
         .lead-buttons>button {
-            background: #25AB75;
+            background: blue;
             padding: 20px;
             width: 160px;
             font-weight: 600;

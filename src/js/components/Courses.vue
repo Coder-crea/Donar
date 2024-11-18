@@ -31,7 +31,7 @@ export default {
 
 <style lang="scss" scoped>
 .wrapper {
-    margin-top: 120px;
+    margin-top: 40px;
 
     @media(max-width:1500px) {
         margin-top: 10px;

@@ -1,20 +1,22 @@
 <template>
     <div>
         <Nav />
-        <Head />
+        <ContentTarif />
         <Courses :data="courses" />
         <Move />
+        <Endter />
     </div>
 </template>
 
 <script>
 
 import Nav from "./components/Nav.vue"
-import Head from "./components/Head.vue"
 import Courses from "./components/Courses.vue"
 import Move from "./components/Move.vue"
+import Endter from "./components/endter.vue"
+import ContentTarif from "./components/ContentTarif.vue"
 export default {
-    components: { Nav, Head, Courses, Move },
+    components: { Nav, Courses, Move, Endter, ContentTarif },
     data() {
         return {
             courses: [
